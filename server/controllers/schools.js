@@ -15,6 +15,8 @@ export const getSchools = async (req, res) => {
   res.send('School getting');
 }
 
+
+
 export const createSchools = async (req, res) => {
   const post = req.body;
 
